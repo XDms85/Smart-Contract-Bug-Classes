@@ -1,4 +1,5 @@
 # Smart Contracts Bug Classes
+Not definitive - in progress
 
 - [ ] Unchecked inputs
 - [ ] Unchecked return values
