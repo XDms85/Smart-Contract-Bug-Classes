@@ -4,6 +4,7 @@ Not definitive - in progress
 - [ ] Unchecked inputs
 - No checks on inputs
 - No ranges of values
+- Src and Dst can be equal
 - [ ] Unchecked return values
 - Transfer return value
 - [ ] Reentrancy
