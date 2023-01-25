@@ -5,6 +5,7 @@ Not definitive - in progress
 - No checks on inputs
 - No ranges of values
 - Src and Dst can be equal
+- Address can be zero
 - [ ] Unchecked return values
 - Transfer return value
 - [ ] Reentrancy
