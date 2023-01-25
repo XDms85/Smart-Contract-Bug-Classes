@@ -4,7 +4,7 @@ Not definitive - in progress
 - [ ] Unchecked inputs
 - No checks on inputs
 - No ranges of values
-- No limits on quantities (eg. n. of mintable NFTs)
+- No limits on quantities (eg. number of mintable NFTs)
 - Src and Dst can be equal (eg. transfer to one-self)
 - Address can be zero
 - Use of isContract (check can be avoided) 
