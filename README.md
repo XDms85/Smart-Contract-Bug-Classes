@@ -9,6 +9,11 @@ Not definitive - in progress
 - [ ] Unchecked return values
 - Transfer return value
 - [ ] Reentrancy
+- Function is not protected
+- Function has no Checks-Effects-Interaction pattern
+- Function use call instead of transfer
+- Function supports ERC777 / ERC721
+- Function supports any standards with hooks
 - [ ] Frontrunning
 - Operation can be replied by another user
 - [ ] Access control
