@@ -4,7 +4,8 @@ Not definitive - in progress
 - [ ] Unchecked inputs
 - No checks on inputs
 - No ranges of values
-- Src and Dst can be equal
+- No limits on quantities (eg. n. of mintable NFTs)
+- Src and Dst can be equal (eg. transfer to one-self)
 - Address can be zero
 - Use of isContract (check can be avoided) 
 
@@ -26,10 +27,13 @@ Not definitive - in progress
 - Function can't be reached (eg. onlyOwner but contract has no owner)
 
 - [ ] Function abuse
+- Function can be called indefinitely
+- Function allows to split transactions
 
 - [ ] Function denial (DOS)
-- Function can cause reentrancy
+- Function allows reentrancy
 - Function can interact with an user smart contract
+- Use of SafeTransfer which causes revert
 
 - [ ] Wrong math
 - Division before multiplication
