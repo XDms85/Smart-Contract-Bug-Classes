@@ -6,6 +6,7 @@ Not definitive - in progress
 - No ranges of values
 - Src and Dst can be equal
 - Address can be zero
+- Use of isContract (check can be avoided) 
 
 - [ ] Unchecked return values
 - Transfer return value
@@ -43,3 +44,5 @@ Not definitive - in progress
 - [ ] Wrong accounting
 - Missing effect (eg. after withdraw no balance[user] -= wad)
 - Missing critical condition (eg. no require(balance[user] <= wad))
+- Contract does not allow refunds / withdraws
+- Contract can't be replenished (no payable functions)
