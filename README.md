@@ -19,7 +19,7 @@ Not definitive - in progress
 - Function supports any standards with hooks
 
 - [ ] Frontrunning
-- Operation can be replied by another user
+- Transaction can be repeated by another user
 
 - [ ] Access control
 - Function is critical but it's public/external instead of private/internal
