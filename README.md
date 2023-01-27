@@ -24,8 +24,13 @@ Not definitive - in progress
 - Transaction can be repeated
 
 - [ ] Access control
-- Function is critical but it's public/external instead of private/internal
+- Function do a critical action but it's public/external instead of private/internal
 - Function can't be reached (eg. onlyOwner but contract has no owner)
+- Admin has too much allowance
+- No timelock or timelock is ineffective
+- Misuse of timelock (blocks legit functions or resolutions)
+- No multi-step transfer pattern for critical changes (eg. changeOwner)
+- No whitelist or blacklist
 
 - [ ] Contract state confusion
 - Contract use critical variables that needs to be constantly checked
