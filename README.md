@@ -30,7 +30,7 @@ Not definitive - in progress
 - Function can be called indefinitely
 - Function allows to split transactions
 
-- [ ] Function denial (DOS)
+- [ ] Denial of Service (DOS)
 - Function allows reentrancy
 - Function can interact with an user smart contract
 - Use of SafeTransfer which causes revert
@@ -50,3 +50,4 @@ Not definitive - in progress
 - Missing critical condition (eg. no require(balance[user] <= wad))
 - Contract does not allow refunds / withdraws
 - Contract can't be replenished (no payable functions)
+- First and only user is not properly accounted
